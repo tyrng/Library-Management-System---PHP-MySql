@@ -9,8 +9,8 @@ header('location:index.php');
 else{ 
 if(isset($_POST['change']))
   {
-$password=md5($_POST['password']);
-$newpassword=md5($_POST['newpassword']);
+$password=($_POST['password']);
+$newpassword=($_POST['newpassword']);
 $username=$_SESSION['alogin'];
   $sql ="SELECT Password FROM admin where UserName=:username and Password=:password";
 $query= $dbh -> prepare($sql);
