@@ -14,7 +14,7 @@
             </div>
 
             <div class="right-div">
-                <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
+                <a href="logout.php" class="btn btn-danger pull-right">LOG OUT</a>
             </div>
         </div>
     </div>
@@ -50,13 +50,13 @@
                             </li>
 
                            <li>
-                                <a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown"> Issue Books <i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown"> Checkout / Return <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="issue-book.php">Issue New Book</a></li>
-                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="manage-issued-books.php">Manage Issued Books</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="issue-book.php">Checkout</a></li>
+                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="manage-issued-books.php">Manage Checkout / Return</a></li>
                                 </ul>
                             </li>
-                             <li><a href="reg-students.php">Reg Students</a></li>
+                             <li><a href="reg-students.php">Student Registrations</a></li>
                     
   <li><a href="change-password.php">Change Password</a></li>
                         </ul>

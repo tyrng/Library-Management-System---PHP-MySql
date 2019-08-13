@@ -44,7 +44,7 @@ echo "<script>alert('Invalid Details');</script>";
     <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE  -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="admin/assets/css/style.css" rel="stylesheet" />
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
@@ -64,7 +64,7 @@ echo "<script>alert('Invalid Details');</script>";
 <!--LOGIN PANEL START-->           
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
-<div class="panel panel-info">
+<div class="panel panel-danger">
 <div class="panel-heading">
  LOGIN FORM
 </div>
@@ -72,7 +72,7 @@ echo "<script>alert('Invalid Details');</script>";
 <form role="form" method="post">
 
 <div class="form-group">
-<label>Enter Username</label>
+<label>Username</label>
 <input class="form-control" type="text" name="username" autocomplete="off" required />
 </div>
 <div class="form-group">
@@ -84,7 +84,7 @@ echo "<script>alert('Invalid Details');</script>";
 <input type="text"  name="vercode" maxlength="5" autocomplete="off" required style="width: 150px; height: 25px;" />&nbsp;<img src="captcha.php">
 </div>   -->
 
- <button type="submit" name="login" class="btn btn-info">LOGIN </button>
+ <button type="submit" name="login" class="btn btn-danger">LOGIN </button>
 </form>
  </div>
 </div>

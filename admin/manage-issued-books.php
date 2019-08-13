@@ -18,7 +18,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Online Library Management System | Manage Issued Books</title>
+    <title>Online Library Management System | Manage Checkout / Return</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -39,7 +39,7 @@ else{
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Manage Issued Books</h4>
+                <h4 class="header-line">Manage Checkout / Return</h4>
     </div>
      <div class="row">
     <?php if($_SESSION['error']!="")
@@ -96,7 +96,7 @@ else{
                                             <th>Student Name</th>
                                             <th>Book Name</th>
                                             <th>ISBN </th>
-                                            <th>Issued Date</th>
+                                            <th>Issue Date</th>
                                             <th>Return Date</th>
                                             <th>Action</th>
                                         </tr>
@@ -119,7 +119,7 @@ foreach($results as $result)
                                             <td class="center"><?php echo htmlentities($result->IssuesDate);?></td>
                                             <td class="center"><?php if($result->ReturnDate=="")
                                             {
-                                                echo htmlentities("Not Return Yet");
+                                                echo htmlentities("Not Returned");
                                             } else {
 
 

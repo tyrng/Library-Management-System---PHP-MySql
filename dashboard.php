@@ -33,7 +33,7 @@ else{?>
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">ADMIN DASHBOARD</h4>
+                <h4 class="header-line">USER DASHBOARD</h4>
                 
                             </div>
 
@@ -45,8 +45,8 @@ else{?>
 
             
                  <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-info back-widget-set text-center">
-                            <i class="fa fa-bars fa-5x"></i>
+                      <div class="alert alert-success back-widget-set text-center">
+                            <i class="fa fa-book fa-5x"></i>
 <?php 
 $sid=$_SESSION['stdid'];
 $sql1 ="SELECT id from tblissuedbookdetails where StudentID=:sid";
@@ -58,12 +58,12 @@ $issuedbooks=$query1->rowCount();
 ?>
 
                             <h3><?php echo htmlentities($issuedbooks);?> </h3>
-                            Book Issued
+                            Books Lent
                         </div>
                     </div>
              
                <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-warning back-widget-set text-center">
+                      <div class="alert alert-danger back-widget-set text-center">
                             <i class="fa fa-recycle fa-5x"></i>
 <?php 
 $rsts=0;
@@ -77,7 +77,7 @@ $returnedbooks=$query2->rowCount();
 ?>
 
                             <h3><?php echo htmlentities($returnedbooks);?></h3>
-                          Books Not Returned Yet
+                          Unreturned Books
                         </div>
                     </div>
         </div>

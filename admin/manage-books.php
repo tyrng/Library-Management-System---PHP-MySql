@@ -104,7 +104,7 @@ header('location:manage-books.php');
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                           Books Listing
+                           Book Listing
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">

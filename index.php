@@ -84,7 +84,7 @@ echo "<script>alert('Invalid Details');</script>";
 <form role="form" method="post">
 
 <div class="form-group">
-<label>Enter Email id</label>
+<label>Email</label>
 <input class="form-control" type="text" name="emailid" required autocomplete="off" />
 </div>
 <div class="form-group">
@@ -98,7 +98,7 @@ echo "<script>alert('Invalid Details');</script>";
 <input type="text" class="form-control1"  name="vercode" maxlength="5" autocomplete="off" required  style="height:25px;" />&nbsp;<img src="captcha.php">
 </div>  -->
 
- <button type="submit" name="login" class="btn btn-info">LOGIN </button> | <a href="signup.php">Not Register Yet</a>
+ <button type="submit" name="login" class="btn btn-info">LOGIN </button> | <a href="signup.php">Sign Up</a>
 </form>
  </div>
 </div>

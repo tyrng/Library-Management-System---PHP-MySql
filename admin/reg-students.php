@@ -66,7 +66,7 @@ header('location:reg-students.php');
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Manage Reg Students</h4>
+                <h4 class="header-line">Manage Student Registrations</h4>
     </div>
 
 
@@ -86,9 +86,9 @@ header('location:reg-students.php');
                                             <th>#</th>
                                             <th>Student ID</th>
                                             <th>Student Name</th>
-                                            <th>Email id </th>
-                                            <th>Mobile Number</th>
-                                            <th>Reg Date</th>
+                                            <th>Email </th>
+                                            <th>Phone Number</th>
+                                            <th>Registration Date</th>
                                             <th>Status</th>
                                             <th>Action</th>
                                         </tr>

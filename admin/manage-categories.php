@@ -104,7 +104,7 @@ header('location:manage-categories.php');
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                           Categories Listing
+                           Category Listing
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">

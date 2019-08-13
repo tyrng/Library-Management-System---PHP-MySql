@@ -16,7 +16,7 @@
 {
 ?> 
             <div class="right-div">
-                <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
+                <a href="logout.php" class="btn btn-danger pull-right">LOG OUT</a>
             </div>
             <?php }?>
         </div>
@@ -34,6 +34,7 @@
                             <li><a href="dashboard.php" class="menu-top-active">DASHBOARD</a></li>
                            
                           
+                            <li><a href="issued-books.php">Books Lent</a></li>
    <li>
                                 <a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown"> Account <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
@@ -41,7 +42,6 @@
                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="change-password.php">Change Password</a></li>
                                 </ul>
                             </li>
-                            <li><a href="issued-books.php">Issued Books</a></li>
                           
 
                         </ul>
@@ -60,7 +60,7 @@
                         <ul id="menu-top" class="nav navbar-nav navbar-right">                        
                           
   <li><a href="adminlogin.php">Admin Login</a></li>
-                            <li><a href="signup.php">User Signup</a></li>
+                            <!-- <li><a href="signup.php">User Signup</a></li> -->
                              <li><a href="index.php">User Login</a></li>
                           
 
